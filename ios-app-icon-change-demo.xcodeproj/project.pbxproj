@@ -11,6 +11,14 @@
 		5006DB3C2A20D4FA009707A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5006DB3B2A20D4FA009707A3 /* ContentView.swift */; };
 		5006DB3E2A20D4FB009707A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB3D2A20D4FB009707A3 /* Assets.xcassets */; };
 		5006DB412A20D4FB009707A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB402A20D4FB009707A3 /* Preview Assets.xcassets */; };
+		5006DB512A20DD21009707A3 /* dev@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB492A20DD20009707A3 /* dev@2x.png */; };
+		5006DB532A20DD21009707A3 /* qa@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB4B2A20DD21009707A3 /* qa@3x.png */; };
+		5006DB552A20DD21009707A3 /* dev@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB4D2A20DD21009707A3 /* dev@3x.png */; };
+		5006DB562A20DD21009707A3 /* in@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB4E2A20DD21009707A3 /* in@2x.png */; };
+		5006DB572A20DD21009707A3 /* in@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB4F2A20DD21009707A3 /* in@3x.png */; };
+		5006DB582A20DD21009707A3 /* qa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB502A20DD21009707A3 /* qa@2x.png */; };
+		5006DB5F2A20DEFF009707A3 /* simba@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB5D2A20DEFF009707A3 /* simba@3x.png */; };
+		5006DB602A20DEFF009707A3 /* simba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5006DB5E2A20DEFF009707A3 /* simba@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		5006DB3B2A20D4FA009707A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5006DB3D2A20D4FB009707A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5006DB402A20D4FB009707A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5006DB472A20D629009707A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5006DB492A20DD20009707A3 /* dev@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dev@2x.png"; sourceTree = "<group>"; };
+		5006DB4B2A20DD21009707A3 /* qa@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qa@3x.png"; sourceTree = "<group>"; };
+		5006DB4D2A20DD21009707A3 /* dev@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dev@3x.png"; sourceTree = "<group>"; };
+		5006DB4E2A20DD21009707A3 /* in@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "in@2x.png"; sourceTree = "<group>"; };
+		5006DB4F2A20DD21009707A3 /* in@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "in@3x.png"; sourceTree = "<group>"; };
+		5006DB502A20DD21009707A3 /* qa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qa@2x.png"; sourceTree = "<group>"; };
+		5006DB5D2A20DEFF009707A3 /* simba@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simba@3x.png"; sourceTree = "<group>"; };
+		5006DB5E2A20DEFF009707A3 /* simba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simba@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,8 @@
 		5006DB382A20D4FA009707A3 /* ios-app-icon-change-demo */ = {
 			isa = PBXGroup;
 			children = (
+				5006DB482A20D811009707A3 /* App Icons */,
+				5006DB472A20D629009707A3 /* Info.plist */,
 				5006DB392A20D4FA009707A3 /* ios_app_icon_change_demoApp.swift */,
 				5006DB3B2A20D4FA009707A3 /* ContentView.swift */,
 				5006DB3D2A20D4FB009707A3 /* Assets.xcassets */,
@@ -65,6 +84,21 @@
 				5006DB402A20D4FB009707A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5006DB482A20D811009707A3 /* App Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5006DB5E2A20DEFF009707A3 /* simba@2x.png */,
+				5006DB5D2A20DEFF009707A3 /* simba@3x.png */,
+				5006DB492A20DD20009707A3 /* dev@2x.png */,
+				5006DB4D2A20DD21009707A3 /* dev@3x.png */,
+				5006DB4E2A20DD21009707A3 /* in@2x.png */,
+				5006DB4F2A20DD21009707A3 /* in@3x.png */,
+				5006DB502A20DD21009707A3 /* qa@2x.png */,
+				5006DB4B2A20DD21009707A3 /* qa@3x.png */,
+			);
+			path = "App Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +160,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5006DB412A20D4FB009707A3 /* Preview Assets.xcassets in Resources */,
+				5006DB532A20DD21009707A3 /* qa@3x.png in Resources */,
+				5006DB5F2A20DEFF009707A3 /* simba@3x.png in Resources */,
+				5006DB552A20DD21009707A3 /* dev@3x.png in Resources */,
+				5006DB512A20DD21009707A3 /* dev@2x.png in Resources */,
+				5006DB562A20DD21009707A3 /* in@2x.png in Resources */,
+				5006DB582A20DD21009707A3 /* qa@2x.png in Resources */,
+				5006DB602A20DEFF009707A3 /* simba@2x.png in Resources */,
 				5006DB3E2A20D4FB009707A3 /* Assets.xcassets in Resources */,
+				5006DB572A20DD21009707A3 /* in@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +312,7 @@
 				DEVELOPMENT_TEAM = JTYWLXSK79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-app-icon-change-demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +342,7 @@
 				DEVELOPMENT_TEAM = JTYWLXSK79;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-app-icon-change-demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
