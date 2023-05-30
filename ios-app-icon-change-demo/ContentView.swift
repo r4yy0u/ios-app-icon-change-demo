@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = ViewModel()
+    
     var body: some View {
         VStack(spacing: 50.0) {
             Button("Change app icon to DEV") {
@@ -33,6 +35,15 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+class ViewModel: ObservableObject {
+    init() {
+        print("Model code executed")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            changeIcon(to: "simba")
+        }
     }
 }
 
